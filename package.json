@@ -47,13 +47,14 @@
     "whatwg-fetch": "2.0.2"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.7",
     "react-bootstrap-slider": "^1.1.4",
     "react-dom": "^15.4.2"
   },
   "scripts": {
-    "start": "node scripts/start",
+    "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
